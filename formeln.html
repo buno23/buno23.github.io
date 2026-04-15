@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formelsammlung</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="formular.js"></script>
+</head>
+<body>
+
+    <div class="taskbalken">
+        <img src="hpi-logo-white.svg" class="logo">
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="page2.html">Krasse Zitate</a>
+            <a href="formeln.html">Formelsammlung</a>
+        </div>
+    </div>
+    <div class="posts" id="posts"></div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="form-box">
+    <h2>Neue Formel hinzufügen</h2>
+
+    <select id="thema" onchange="updateSubthemen()">
+        <option value="">Thema wählen</option>
+        <option value="Mathe">Mathe</option>
+        <option value="Physik">Physik</option>
+    </select>
+
+    <select id="unterthema">
+        <option value="">Unterthema wählen</option>
+    </select>
+    <input type="text" id="formel" placeholder="Formel (z.B. F = m * a)">
+    <textarea id="beschreibung" placeholder="Beschreibung"></textarea>
+    <input type="text" id="name" placeholder="Dein Name">
+
+    <button onclick="addPost()">Abschicken</button>
+    <br>
+    <br>
+    <button onclick="clearPosts()">Alles löschen</button>
+</div>
+</body>
+</html>
