@@ -1,0 +1,149 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #00000060;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .taskbalken {
+            background: rgb(255, 136, 0);
+            padding: 15px 20px;
+            margin: 20px;
+
+            border-radius: 10px;
+            box-shadow: 3px 5px 8px 2px rgba(0,0,0,0.67);
+
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 125px;
+        }
+
+        .nav-links {
+            margin-left: auto;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            color: white;
+        }
+
+        /* 🔥 BOX IN DER MITTE */
+        .box {
+            background: rgba(92, 92, 119, 0.527);
+            padding: 30px;
+            margin: auto;
+            width: auto;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 3px 5px 8px 2px rgba(0,0,0,0.67);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #000;
+        }
+
+        p {
+            color: #000;
+        }
+        .zitatbox{
+            background-color:rgb(247, 127, 0);
+            padding: 5px 5px;
+            margin: 20px;
+            border-radius: 7px;
+            box-shadow: 4px 4px 15px 3px rgba(0,0,0,0.47);
+
+            display: flex;
+            align-items: first baseline;
+            justify-content: left;
+        }
+        .form-box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 900px;
+        margin: auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: orange;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: darkorange;
+        }
+
+        /* BEITRÄGE */
+        .posts {
+            margin-top: 30px;
+        }
+
+        .post {
+            background: white;
+            padding: 15px;
+            margin: 15px auto;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .post h3 {
+            margin: 0;
+        }
+
+        .formel {
+            font-family: monospace;
+            background: #eee;
+            padding: 5px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 5px 0;
+        }
+
+        .name {
+            font-size: 12px;
+            color: gray;
+            margin-top: 10px;
+        }
+        h2 {
+            margin-top: 30px;
+            border-bottom: 2px solid black;
+        }
+
+        h3 {
+            margin-top: 15px;
+            color: gray;
+        }
